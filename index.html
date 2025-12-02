@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Gomez - Software Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Pedro Gomez - Software Developer specializing in React Native mobile applications. Portfolio showcasing projects, skills, and experience.">
+    <meta name="keywords" content="Software Developer, React Native, Mobile App Development, JavaScript, Python, Portfolio">
+    <meta name="author" content="Pedro Gomez">
+    <meta property="og:title" content="Pedro Gomez - Software Developer Portfolio">
+    <meta property="og:description" content="Professional portfolio showcasing software development projects and skills.">
+    <meta property="og:url" content="https://prxpedro.github.io">
+    <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Dark/Light Mode Toggle -->
+    <div class="theme-toggle">
+        <input type="checkbox" id="theme-switch" class="theme-switch">
+        <label for="theme-switch" class="theme-label">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <span class="theme-ball"></span>
+        </label>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Pedro's Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section / Summarizing Statement -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Pedro Gomez-Ramirez</h1>
+                    <h2 class="hero-subtitle">Software Developer</h2>
+                    <p class="hero-description">
+                        Detail-oriented Software Developer with professional experience specializing in mobile application development. 
+                        Proven expertise in building, testing, and deploying complete React Native applications from concept to publication 
+                        on the App Store and Google Play. Passionate about creating intuitive and high-performing user interfaces.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-card">
+                <div class="education-header">
+                    <h3>Software Development</h3>
+                    <span class="date">Sept 2021 - Dec 2025 (Expected)</span>
+                </div>
+                <div class="education-body">
+                    <h4>Mohawk College, Hamilton, ON</h4>
+                    <ul class="education-details">
+                        <li><strong>Activities & Societies:</strong></li>
+                        <li>Social Executive for the VR/XR Club (Host events, recruit new members, create promotional materials, manage social media)</li>
+                        <li>Social Executive for The New Developers Club (Host events, recruit new members, create promotional materials, manage social media)</li>
+                        <li>Volunteer at the Temi Lab (Created documentation for Temi robot SDK, developed code for basic robot movement and functions)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-desktop"></i> Frontend Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React Native</span>
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">Laravel</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Backend Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Kotlin</span>
+                        <span class="skill-tag">C#</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">ASP.NET</span>
+                        <span class="skill-tag">Laravel</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Database Technologies</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">Oracle</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Methodologies</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">JIRA</span>
+                        <span class="skill-tag">Slack</span>
+                        <span class="skill-tag">Agile</span>
+                        <span class="skill-tag">DigitalOcean</span>
+                    </div>
+                </div>
+                <!-- Skill Proficiency Bars -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-chart-line"></i> Proficiency Levels</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>React Native</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>JavaScript</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Python</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Java</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Presale.Codes Mobile App</h3>
+                        <span class="project-date">Sept 2024 - Oct 2025</span>
+                    </div>
+                    <div class="project-body">
+                        <p>Developed a React Native application replicating the features and functionality of the Presale Codes website for seamless mobile experience.</p>
+                        <ul class="project-features">
+                            <li>Built clean, intuitive UI/UX with event table, search, and subscription-based content</li>
+                            <li>Implemented secure token-based authentication system</li>
+                            <li>Published on both App Store and Google Play</li>
+                            <li>Collaborated with backend team for system integration</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>React Native</span>
+                            <span>JavaScript</span>
+                            <span>REST API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Gym/Fitness Tracking Web App</h3>
+                        <span class="project-date">Sep 2023 - May 2024</span>
+                    </div>
+                    <div class="project-body">
+                        <p>Full-stack development of a fitness web application with personalized workout plans, progress tracking, and calorie calculator.</p>
+                        <ul class="project-features">
+                            <li>Built CRUD operations and user authentication with role-based access</li>
+                            <li>Created moderated community forum with social features</li>
+                            <li>Implemented security measures (XSS/SQL prevention)</li>
+                            <li>Deployed on DigitalOcean with pagination and advanced search</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>Laravel</span>
+                            <span>PHP</span>
+                            <span>JavaScript</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Military Archive Facial Recognition</h3>
+                        <span class="project-date">Jan 2024 - Apr 2024</span>
+                    </div>
+                    <div class="project-body">
+                        <p>Collaborated on a full-stack application using AI for facial recognition to find archived pictures of relatives in the Canadian military.</p>
+                        <ul class="project-features">
+                            <li>Integrated AI using Python for facial recognition</li>
+                            <li>Developed backend with SQL database</li>
+                            <li>Built frontend using Laravel framework</li>
+                            <li>Part of invite-only Applied Research I Course</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Laravel</span>
+                            <span>SQL</span>
+                            <span>AI/ML</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Lumba - AI Video Enhancement</h3>
+                        <span class="project-date">Jan 2024 - Apr 2024</span>
+                    </div>
+                    <div class="project-body">
+                        <p>Worked with a startup to integrate AI for upscaling, merging, and removing objects in concert videos within an application.</p>
+                        <ul class="project-features">
+                            <li>Integrated AI using Python and Java</li>
+                            <li>Built appointment scheduling and reminder system</li>
+                            <li>Implemented team management features</li>
+                            <li>Collaborated with Slack and JIRA integration</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Java</span>
+                            <span>AI Integration</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="section resume">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+            <div class="resume-content">
+                <div class="resume-card">
+                    <div class="resume-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <h3>Download My Resume</h3>
+                    <p>Access my complete professional resume with detailed experience, education, and skills.</p>
+                    <div class="resume-actions">
+                        <a href="Pedro_Gomez.pdf" class="btn btn-primary" download="Pedro_Gomez_Resume.pdf">
+                            <i class="fas fa-download"></i> Download PDF
+                        </a>
+                        <a href="Pedro_Gomez.pdf" class="btn btn-secondary" target="_blank">
+                            <i class="fas fa-eye"></i> View in Browser
+                        </a>
+                    </div>
+                </div>
+                <div class="resume-preview">
+                    <h3>Professional Experience</h3>
+                    <div class="experience-item">
+                        <h4>React Native Software Engineer</h4>
+                        <p class="company">Presale.Codes | Sept 2024 - Oct 2025</p>
+                        <ul>
+                            <li>Developed a React Native application replicating the features and functionality of the Presale Codes website, ensuring a seamless user experience across mobile platforms</li>
+                            <li>Collaborated closely with the backend development team to integrate the mobile app with existing systems and databases, maintaining smooth data flow and synchronization</li>
+                            <li>Designed and implemented a clean, intuitive UI/UX, including a table of events, search functionality, single event view, and subscription-based content locking</li>
+                            <li>Built and optimized a secure login/logout system utilizing token-based authentication</li>
+                            <li>Conducted rigorous testing and debugging to ensure optimal performance and a seamless user experience on various devices and platforms</li>
+                            <li>Published the application on both the App Store and Google Play, ensuring compliance with platform-specific guidelines</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Contact Information</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:pedrogrjr3@gmail.com">pedrogrjr3@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:+17046522892">+1 (704) 652-2892</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/PrxPedro" target="_blank">github.com/PrxPedro</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/pedro-gomez-ramirez/" target="_blank">linkedin.com/in/pedro-gomez-ramirez/</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send me a message</h3>
+                    <form id="contactForm" action="https://formspree.io/f/manrjjna" method="POST">
+                        <div class="form-group">
+                            <input type="text" name="name" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" id="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" id="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <div id="form-status" class="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Pedro Gomez-Ramirez. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/PrxPedro" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/pedro-gomez-ramirez/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:pedrogrjr3@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
